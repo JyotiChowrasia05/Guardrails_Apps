@@ -1,0 +1,8 @@
+models:
+ - type: main
+   engine: MetaAI
+   model:  meta-llama/Llama-3.3-70B-Instruct
+rails:
+  input:
+    flows:
+      - self check input
